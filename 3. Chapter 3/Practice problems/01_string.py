@@ -5,7 +5,6 @@
 # String = input("Enter the String:-" )
 
 # print(len(String))
-char = ""
 
 '''Using Functions'''
 # def String_length(str1):
