@@ -1,0 +1,9 @@
+Python is an easy to learn, powerful programming language. 
+It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, 
+together with its interpreted nature makes it ideal for development.
+
+Python is an interpreted object-oriented programming language. By interpreted it is meant that each time a program is run the interpreter 
+checks through the code for errors and then interprets the instructions into machine-readable bytecode.
+
+An interpreter is a translator in computer's language which translates the given code line-by-line in machine readable bytecodes. 
+And if any error is encounterd it stops the translation until the error is fixed. 
