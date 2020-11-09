@@ -12,5 +12,5 @@ def not_poor(str):
     return str
 
 
-print(not_poor('The lyrics is not that poor!'))    
-print(not_poor('The lyrics is poor!'))    
+print(not_poor('The lyrics is not that poor!'))
+print(not_poor('The lyrics is poor!'))

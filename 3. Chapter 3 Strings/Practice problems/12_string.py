@@ -1,17 +1,15 @@
-'''Write a Python program to count the number of characters (character frequency) in a string.'''
+'''Write a Python program to count the words appearing in a sentence'''
 
 def word_count(str):
-    counts = dict()
-    words = str.split()
-
+    count = dict()
+    words=str.split(',')
     for word in words:
-        if word in counts:
-            counts[word]+=1
+        if word in count:
+            count[word]+=1
         else:
-            counts[word]=1
+            count[word]=1
+    return count
 
-    return counts
-
-
-print(word_count("Python is is very simple and user friendly language."))
+print(word_count("Python ,is is very simple and user friendly language."))
+# Time complexity = 5n+3
 
