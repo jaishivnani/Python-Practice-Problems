@@ -11,6 +11,9 @@ def to_uppercase(str):
     return str
 
 print(to_uppercase('GeeksforGeeks'))
+print(to_uppercase('GEeksforGeeks'))
+print(to_uppercase('GEEksforGeeks'))
+
 
 
 

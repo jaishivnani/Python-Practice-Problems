@@ -5,12 +5,12 @@ It just requires to keep incrementing each value field by 1.'''
 
 '''Solution 1'''
 
-# String = "Python is very simple and user friendly language."
-# frequencies = {}
-# for char in String:
-#     frequencies[char] = frequencies.get(char,0)+1
-#
-# print("Per Char frequency in String is '{}' is :\n{}".format(String,str(frequencies)))
+String = "Python is very simple and user friendly language."
+frequencies = {}
+for char in String:
+    frequencies[char] = frequencies.get(char,0)+1
+
+print("Per Char frequency in String is '{}' is :\n{}".format(String,str(frequencies)))
 
 
 '''Solution 2'''
