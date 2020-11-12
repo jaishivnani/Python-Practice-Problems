@@ -16,6 +16,12 @@
 # print(string_length("jai"))
 # str1 = String_length("Jai")
 
-# print(str1)      
+# print(str1)
 
-# Time Complexity = 2n + 3 = O(n)
+# Time Complexity = 2n + 2 = O(n)
+
+
+
+
+
+
