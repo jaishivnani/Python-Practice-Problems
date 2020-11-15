@@ -5,11 +5,10 @@ If the string length of the given string is less than 3, leave it unchanged'''
 def stringing(str):
     if len(str)<3:
         return str
-    elif len(str)>=3 and not str.endswith('ing'):
-        return str + 'ing'
+    elif len(str)>3 and str.endswith("ing"):
+        return str+"ly"
     else:
-        str.endswith('ing')
-        return str + 'ly'
+        return str+"ing"
 
 print(stringing("ab"))
 print(stringing("abc"))

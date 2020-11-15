@@ -5,4 +5,6 @@ def word_length(str):
 
     return length
 
+
+
 print(word_length("Python is very simple and user friendly language."))

@@ -2,22 +2,18 @@
 
 '''Using in built Function'''
 
-# String = input("Enter the String:-" )
-# print(len(String))
+String = input("Enter the String:-" )
+print(len(String))
 
 '''Using Function'''
+def string_length(str):
+    count=0
+    for char in str:
+        count+=1
+    return count
 
-# def string_length(str1):
-#     count=0
-#     for char in str1:
-#         count+=1
-#     return count
-#
-# print(string_length("jai"))
-# str1 = String_length("Jai")
 
-# print(str1)
-
+print(string_length(""))
 # Time Complexity = 2n + 2 = O(n)
 
 

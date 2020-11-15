@@ -5,5 +5,6 @@ Expected Result : black, green, red, white, red'''
 words=input("Input comma separated words:-")
 
 word = [word for word in words.split(",")]
+
 print(",".join(sorted(list(set(word)))))
 

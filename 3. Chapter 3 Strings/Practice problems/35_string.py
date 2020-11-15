@@ -1,5 +1,5 @@
 '''Hackerank Problem 3 What's Your Name?'''
-# Sample Output:- Hello Ross Taylor! You just delved into python."
+# Sample Output:- Hello Jai Shivnani! You just delved into python."
 
 
 def print_full_name(a, b):
