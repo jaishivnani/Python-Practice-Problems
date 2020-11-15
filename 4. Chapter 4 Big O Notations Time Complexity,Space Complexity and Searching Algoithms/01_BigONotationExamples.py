@@ -26,6 +26,7 @@ list_numbers = [3,6,2,4,3,6,8,9]
 for i in range(len(list_numbers)):
     for j in range(i+1,len(list_numbers)):
         if list_numbers[i]==list_numbers[j]:
+            list_numbers.remove(list_numbers[i])
             print(list_numbers[i],"is a duplicate")
             break
 
