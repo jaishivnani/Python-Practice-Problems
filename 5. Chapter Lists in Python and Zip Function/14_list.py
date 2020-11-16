@@ -5,6 +5,7 @@ list1 = [5, 15, 25, 50]
 '''
 
 list1 = [5, 20, 15, 20, 25, 50, 20]
+
 def removevalue(sampleList,val):
     return [value for value in sampleList if value!=val]
 

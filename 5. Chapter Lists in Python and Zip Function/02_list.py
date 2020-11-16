@@ -36,3 +36,6 @@ print("Expenses at the end of June:",exp) # [2200, 2350, 2600, 2130, 2190, 1980]
 # based on this
 exp[3] = exp[3] - 200
 print("Expenses after 200$ return in April:",exp) # [2200, 2350, 2600, 1930, 2190, 1980]
+
+exp.append(2000)
+print(exp)

@@ -1,18 +1,18 @@
-''' Write a Python program to count the number of strings where the string length is 2
-or more and the first and last character are same from a given list of strings
-Sample List : ['abc', 'xyz', 'aba', '1221']
+''' Write a Python program to remove duplicates from a list.
+list_numbers = [3,6,2,4,3,6,8,9]
 Expected output:
-2
+list_numbers = [6,2,4,3,6,8,9]
 '''
 
-def match_words(words):
-    count = 0
-    for word in words:
-        if len(word)>1 and word[0]==word[-1]:
-            count+=1
-    return count
+a = [3,6,2,4,9,9,9,9]
 
-print(match_words(['abc', 'xyz', 'aba', '1221']))
+def remove_duplicates(lst):
+    unique_items = set()
+    for x in lst:
+        unique_items.add(x)
+    print(list(unique_items))
+
+remove_duplicates([3,3,6,6,6,2,4,9,9,9,9])
 
 
 

@@ -35,4 +35,5 @@ print(heros)
 #5. Sort the heros list in alphabetical order
 # (Hint. Use dir() functions to list down all functions available in list)
 heros.sort()
+# heros.pop(3)
 print(heros)
