@@ -17,7 +17,6 @@ print(squares)
 odd_squares = {x: x*x for x in range(11) if x % 2 == 1}
 print(odd_squares)
 
-
 dict1 = {i:f"Item {i}" for i  in range(5)}
 
 dict2 = {value:key for key,value in dict1.items()}
