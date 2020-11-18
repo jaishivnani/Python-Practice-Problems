@@ -5,5 +5,7 @@ print(marks)
 for item in marks.items():
     print(item)
 
+print(list(sorted(marks.items())))
 print(list(sorted(marks.keys())))
+print(list(sorted(marks.values())))
 
