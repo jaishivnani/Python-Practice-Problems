@@ -3,7 +3,6 @@ Sample function and result :
 insert_sting_middle('[[]]<<>>', 'Python') -> [[Python]]
 insert_sting_middle('{{}}', 'PHP') -> {{PHP}}'''
 
-
 def insert_string_middle(str,word):
     return str[:2]+word+str[2:]
 

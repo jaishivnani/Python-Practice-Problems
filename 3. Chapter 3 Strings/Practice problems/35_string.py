@@ -2,8 +2,9 @@
 # Sample Output:- Hello Jai Shivnani! You just delved into python."
 
 
-def print_full_name(a, b):
-    print(f"Hello {a} {b}! You just delved into python.")
+
+def print_full_name(a,b):
+    print(f"Hello {a} {b}! You just delved into python")
 
 
 if __name__ == '__main__':

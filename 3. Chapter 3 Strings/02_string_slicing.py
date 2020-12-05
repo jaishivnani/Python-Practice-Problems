@@ -12,6 +12,7 @@ name = "Harry"
 # print(name[1:4])
 # print(name[:4]) # is same as name[0:4]
 # print(name[1:]) # is same as name[1:5]
+# print(name[0:]) # is same as name[:]
 # c = name[-4:-1] # is same is name[1:4]
 # print(c)
 

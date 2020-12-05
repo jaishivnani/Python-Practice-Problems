@@ -5,4 +5,4 @@ def lowerupper(str):
     return str.swapcase()
 
 
-print(lowerupper('ENGLISh'))
+print(lowerupper('eNGLISH'))

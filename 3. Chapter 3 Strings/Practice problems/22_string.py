@@ -2,7 +2,7 @@
 if it contains at least 2 uppercase characters in the first 4 characters.'''
 
 def to_uppercase(str):
-    num_upper=0
+    num_upper = 0
     for letter in str[0:4]:
         if letter.upper()==letter:
             num_upper+=1

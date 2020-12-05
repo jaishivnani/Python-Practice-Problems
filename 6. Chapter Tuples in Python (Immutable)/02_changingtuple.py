@@ -1,15 +1,21 @@
 '''Changing a Tuple'''
 
 # Changing tuple values
-my_tuple = (4, 2, 3, [6, 5])
+# my_tuple = (4, 2, 3, [6, 5])
+
+tuple1 = (11, [22, 33], 44, 55)
+
+tuple1[1][0] = 222
+
+print(tuple1)
 
 
 # TypeError: 'tuple' object does not support item assignment
 #my_tuple[1] = 9
 
 # # However, item of mutable element can be changed
-my_tuple[3][0] = 9    # Output: (4, 2, 3, [9, 5])
-print(my_tuple)
+# my_tuple[3][0] = 9    # Output: (4, 2, 3, [9, 5])
+# print(my_tuple)
 
 # Tuples can be reassigned
 my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')

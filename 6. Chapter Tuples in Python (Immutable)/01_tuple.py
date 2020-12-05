@@ -15,15 +15,19 @@ print(my_tuple)
 my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
 print(my_tuple)
 
-my_tuple = 3, 4.6, "dog"
-print(my_tuple)
+# my_tuple = 3, 4.6, "dog"
+# print(my_tuple)
+aTuple = (10, 20, 30, 40)
+
 
 # tuple unpacking is also possible
 a, b, c = my_tuple
+a, b, c, d = aTuple
 
-print(a)      # 3
-print(b)      # 4.6
-print(c)      # dog
+print(a)   #10    # 3
+print(b)   #20    # 4.6
+print(c)   #30    # dog
+print(d)   #40
 
 '''Creating a tuple with one element is a bit tricky.
 Having one element within parentheses is not enough. 
@@ -57,10 +61,12 @@ print(my_tuple[5])   # 't'
 
 # nested tuple
 n_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+aTuple = ("Orange", [10, 20, 30], (5, 15, 25))
 
 # nested index
 print(n_tuple[0][3])       # 's'
 print(n_tuple[1][1])       # 4
+print(aTuple[1][1])       # 20
 # Negative Indexing
 print(n_tuple[-1][2])
 

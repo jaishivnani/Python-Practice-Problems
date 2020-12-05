@@ -21,7 +21,7 @@
 # Time Complexity:- f(n) = O(1)
 
 '''Big O Notation Example 3 Finding duplicate numbers in List'''
-list_numbers = [3,6,2,4,3,6,8,9]
+list_numbers = [3,6,2,2,4,3,6,8,9]
 
 for i in range(len(list_numbers)):
     for j in range(i+1,len(list_numbers)):

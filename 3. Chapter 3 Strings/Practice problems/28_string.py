@@ -5,5 +5,3 @@ def strip_chars(str,chars):
 
 print(strip_chars("The quick brown fox jumps over the lazy dog.","aeiou"))
 
-
-

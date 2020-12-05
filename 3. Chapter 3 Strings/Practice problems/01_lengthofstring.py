@@ -12,8 +12,6 @@ def string_length(str):
         count+=1
     return count
 
-
-print(string_length(""))
 # Time Complexity = 2n + 2 = O(n)
 
 

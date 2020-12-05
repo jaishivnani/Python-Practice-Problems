@@ -23,3 +23,9 @@ print(my_set)
 # Output: {1, 2, 3, 4, 5, 6, 8}
 my_set.update([4, 5], {1, 6, 8})
 print(my_set)
+
+sampleSet = {"Yellow", "Orange", "Black"}
+sampleList = ["Blue", "Green", "Red"]
+
+sampleSet.update(["Blue", "Green", "Red"])
+print(sampleSet)
